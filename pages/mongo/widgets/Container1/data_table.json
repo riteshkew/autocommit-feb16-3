@@ -50,24 +50,6 @@
     ],
     "leftColumn": 1,
     "primaryColumns": {
-        "appsmith_mongo_escape_id": {
-            "isCellVisible": true,
-            "boxShadow": "none",
-            "isDerived": false,
-            "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}",
-            "textSize": "0.875rem",
-            "index": 1,
-            "isVisible": true,
-            "label": "_id",
-            "columnType": "text",
-            "horizontalAlignment": "LEFT",
-            "borderRadius": "0px",
-            "width": 150,
-            "enableFilter": true,
-            "enableSort": true,
-            "id": "_id",
-            "verticalAlignment": "CENTER"
-        },
         "rating": {
             "isCellVisible": true,
             "isDerived": false,
@@ -109,6 +91,24 @@
             "id": "customColumn1",
             "isDisabled": false,
             "buttonLabelColor": "#FFFFFF",
+            "verticalAlignment": "CENTER"
+        },
+        "_id": {
+            "isCellVisible": true,
+            "boxShadow": "none",
+            "isDerived": false,
+            "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}",
+            "textSize": "0.875rem",
+            "index": 1,
+            "isVisible": true,
+            "label": "_id",
+            "columnType": "text",
+            "horizontalAlignment": "LEFT",
+            "borderRadius": "0px",
+            "width": 150,
+            "enableFilter": true,
+            "enableSort": true,
+            "id": "_id",
             "verticalAlignment": "CENTER"
         },
         "place": {
